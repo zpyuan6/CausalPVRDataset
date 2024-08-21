@@ -89,8 +89,6 @@ def generate_pvr_datasets(
         os.makedirs(pvr_dataset_path)
 
     # generate PVR dataset
-    
-
 
     train_x, train_y = select_samples(
         train_dataset, 
